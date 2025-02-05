@@ -53,8 +53,8 @@ export const NavBar = () => {
               color: "white",
               fontWeight: "300",
             }}
-            className="hover:bg-[#891A98] text-white font-bold py-2 px-4 rounded d-md-none ml-auto"
-            onClick={() => window.open("https://ho2.tech/brochure", "_blank")}
+            className="hover:bg-[#5B8F81] text-white font-bold py-2 px-4 rounded d-md-none ml-auto"
+            onClick={() => window.open("", "_blank")}
           >
             Brochure
           </button>
@@ -155,11 +155,11 @@ export const NavBar = () => {
             </Nav>
             <div className="navbar-text flex justify-end">
               <a
-                href="https://ho2.tech/brochure"
+                href="http://hackoverflow3.tech/docs/publicityBrochure.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="bg-[#9B96B3] hover:bg-[#891A98] text-white font-bold py-2 px-4 rounded">
+                <button className="bg-[#9B96B3] hover:bg-[#5B8F81] text-white font-bold py-2 px-4 rounded">
                   Brochure
                 </button>
               </a>

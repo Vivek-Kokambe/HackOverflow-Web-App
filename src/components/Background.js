@@ -8,12 +8,12 @@ const Background = (props) => {
 
   const handleRegisterButtonClick = () => {
     // Replace 'your_registration_link' with the actual registration link
-    window.open("https://ho2.tech/register", "_blank");
+    window.open("https://forms.gle/C4fr1BQKXDFo3FJa6", "_blank");
   };
 
   return (
     <>
-      {/* <video
+      <video
         autoPlay
         loop
         muted
@@ -29,18 +29,22 @@ const Background = (props) => {
           src={isMobile ? backgroundVideoMobile : backgroundVideoDesktop}
           type="video/webm"
         />
-      </video> */}
+      </video>
       <div className="absolute top-0 left-0 right-0 background-video">
         {props.children}
       </div>
       <div className="absolute top-[35rem] sm:top-[18rem] md:top-[79rem] lg:top-[30rem] xl:top-[36rem] 2xl:top-[45rem] left-0 right-0 flex justify-center">
-        <button
+        <button  
           className="button-86"
           onClick={handleRegisterButtonClick}
           style={{
             fontFamily: "Poppins,sans-serif",
             fontWeight: 700,
             textAlign: "center",
+            
+          
+          
+        
           }}
         >
           Registrations Open!

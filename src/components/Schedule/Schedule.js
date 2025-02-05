@@ -1,6 +1,6 @@
 import colorSharp2 from "../../assets/img/color-sharp2.png";
-import offlineDesktopView from "../../assets/img/offline_web-resize.webp";
-import offlineMobileView from "../../assets/img/offline_mobile-resize-min.svg";
+import offlineDesktopView from "../../assets/img/timeline_website.png";
+import offlineMobileView from "../../assets/img/offline_mobile-resize.png";
 import onlineDesktopView from "../../assets/img/online_web.png";
 import onlineMobileView from "../../assets/img/online_mobile.png";
 import "animate.css";
@@ -32,6 +32,7 @@ export const Schedule = () => {
     <section className="schedule" id="schedule">
       <div className="container-fluid">
         <h1
+         id="green-yellow"
           // id="purple-pink"
           className="text-center text-[45px] capitalize cursor-pointer"
           style={{
@@ -90,11 +91,13 @@ export const Schedule = () => {
       <div className="container">
         <div className="row" style={{ marginTop: "40px" }}>
           <h1
+           id="green-yellow"
             className="text-center text-[45px] sm:text-[25px] md:text-[35px] lg:text-[45px] capitalize cursor-pointer"
             style={{
               fontFamily: "Poppins,sans-serif",
               fontWeight: 700,
               textAlign: "center",
+              
             }}
           >
             Key Dates
@@ -110,12 +113,12 @@ export const Schedule = () => {
             <div className={`${classes.keyDatesCards} my-5`}>
               <div className="row">
                 <div
-                  id="blue-cyan"
-                  className="col-5"
-                  style={{ padding: "2rem" }}
+                   className="col-5"
+                   id="green-yellow"
+                   style={{ padding: "2rem" }}
                 >
-                  <h1 style={{ fontWeight: "bold", fontSize: "70px" }}>30th</h1>
-                  <h3 style={{ fontSize: "25px" }}>January</h3>
+                  <h1 style={{ fontWeight: "bold", fontSize: "70px" }}>5th</h1>
+                  <h3 style={{ fontSize: "25px" }}>February</h3>
                 </div>
                 <div className="col-7" style={{ padding: "2rem" }}>
                   <h1>Registrations Starts</h1>
@@ -136,11 +139,11 @@ export const Schedule = () => {
               <div className="row">
                 <div
                   className="col-5"
-                  id="purple-pink"
+                  id="green-yellow"
                   style={{ padding: "2rem" }}
                 >
-                  <h1 style={{ fontWeight: "bold", fontSize: "70px" }}>29th</h1>
-                  <h3 style={{ fontSize: "25px" }}>Feb</h3>
+                  <h1 style={{ fontWeight: "bold", fontSize: "70px" }}>5th</h1>
+                  <h3 style={{ fontSize: "25px" }}>March</h3>
                 </div>
                 <div className="col-7" style={{ padding: "2rem" }}>
                   <h1>Registrations Ends</h1>
@@ -166,8 +169,8 @@ export const Schedule = () => {
                   id="green-yellow"
                   style={{ padding: "2rem" }}
                 >
-                  <h1 style={{ fontWeight: "bold", fontSize: "70px" }}>14th</h1>
-                  <h3 style={{ fontSize: "25px" }}>March</h3>
+                  <h1 style={{ fontWeight: "bold", fontSize: "55px" }}>To Be</h1>
+                  <h3 style={{ fontSize: "25px" }}>Announced</h3>
                 </div>
                 <div className="col-7" style={{ padding: "2rem" }}>
                   <h1>Hackathon Starts!!!</h1>
@@ -190,12 +193,12 @@ export const Schedule = () => {
             <div className={`${classes.keyDatesCards} my-5`}>
               <div className="row">
                 <div
-                  className="col-5"
-                  id="orange-pink"
-                  style={{ padding: "2rem" }}
+                 className="col-5"
+                 id="green-yellow"
+                 style={{ padding: "2rem" }}
                 >
-                  <h1 style={{ fontWeight: "bold", fontSize: "70px" }}>16th</h1>
-                  <h3 style={{ fontSize: "25px" }}>March</h3>
+                  <h1 style={{ fontWeight: "bold", fontSize: "55px" }}>To Be</h1>
+                  <h3 style={{ fontSize: "25px" }}>Announced</h3>
                 </div>
                 <div className="col-7" style={{ padding: "2rem" }}>
                   <h1>Hackathon Ends</h1>
@@ -214,11 +217,11 @@ export const Schedule = () => {
           </Stack>
         </div> */}
       </div>
-      <img
+      {/* <img
         className="background-image-right"
         alt="hackathon"
         src={colorSharp2}
-      ></img>
+      ></img> */}
     </section>
   );
 };
