@@ -23,6 +23,7 @@ import slide_image_5 from "../../assets/img/Events/college-club-events-23/image5
 import slide_image_6 from "../../assets/img/Events/college-club-events-23/image6.webp";
  
  
+ 
 function App() {
    
   
@@ -88,6 +89,15 @@ function App() {
         </SwiperSlide>
         <SwiperSlide onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <img src={slide_image_5} alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+          <img src={slide_image_6} alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+          <img src={slide_image_6} alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+          <img src={slide_image_6} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <img src={slide_image_6} alt="slide_image" />
